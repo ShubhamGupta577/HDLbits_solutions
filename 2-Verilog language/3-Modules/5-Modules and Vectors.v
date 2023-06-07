@@ -18,5 +18,7 @@ module top_module (
                 q=t2;
             else if(sel==2'b11)
                 q=t3;
+            else
+                q=8'd0;         // To avoid Latch condition
         end
 endmodule
